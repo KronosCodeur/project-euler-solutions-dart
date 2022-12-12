@@ -59,3 +59,11 @@ int sum(a,b){
 int multiplication(a,b){
   return a*b;
 }
+int power(int puissance ,int nombre){
+  int result = 1;
+  while(puissance!=0){
+    result *= nombre;
+    puissance--;
+  }
+  return result;
+}
